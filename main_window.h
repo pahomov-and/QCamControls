@@ -22,12 +22,23 @@
 #include <QTimer>
 #include <QDateTime>
 
+#include <QWidget>
+#include <QVBoxLayout>
+#include <QDockWidget>
+#include <QPushButton>
+#include <QSlider>
+#include <QTabWidget>
+#include <QListWidget>
+#include <QToolBox>
+#include <QLabel>
+#include <QString>
+#include <QSpacerItem>
+
 
 #include <QVBoxLayout>
 #include <QDockWidget>
 #include <QPushButton>
 #include <QLineEdit>
-
 #include <QDoubleSpinBox>
 
 //#include <libcamera/buffer.h>
@@ -43,7 +54,7 @@
 
 #include "cam/stream_options.h"
 #include "viewfinder.h"
-#include "SetupQt.h"
+
 
 #include "Factory.hpp"
 
